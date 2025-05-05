@@ -18,7 +18,7 @@ document.querySelector(".alert").addEventListener("click", () => {
     alert("Du trykket på knappen!");
 });
 
-// Skriv noe
+// Skriv noe... og vis teksten
 document.querySelector(".skriv-noe").addEventListener("click", () => {
     const input = document.getElementById("input-field").value.trim();
     const output = document.getElementById("output");
