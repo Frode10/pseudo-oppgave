@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Lær Pseudo-elementer</title>
+    </head>
+    <body>
+        <h1>Pseudo-elementer</h1>
+
+        <ul>
+            <li>HTML-struktur</li>
+            <li>CSS-grunnlag</li>
+            <li>Pseudo-elementer</li>
+            <li>Pseudo-selektorer</li>
+            <li>Responsivt design</li>
+        </ul>
+
+        <section>
+            <div>Underseksjon 1</div>
+            <div>Underseksjon 2 (nth-of-type)</div>
+            <div>Underseksjon 3</div>
+        </section>
+
+        <div class="highlight">
+            <p>Denne seksjonen har dekorativ ramme med ::before og ::after.</p>
+        </div>
+
+        <label for="input-field">Skriv noe:</label>
+        <input type="text" id="input-field" placeholder="Fokuser her..." />
+
+        <br /><br />
+        <!-- Skult melding i html som vises ved klikk på button trykk meg -->
+        <p id="melding" style="display: none">🎉 Du har aktivert knappen!</p>
+
+        <button class="skjult-tekst-btn">Skjul/vis tekst</button>
+        <button class="legg-til-element-btn">Legg til liste element</button>
+        <button class="alert">Alert</button>
+        <button class="skriv-noe">Skriv noe og klikk</button>
+        <p id="output"></p>
+    </body>
+</html>
